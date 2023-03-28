@@ -1,0 +1,48 @@
+{
+    "slides": [
+        {
+            "gender": "для мужчин",
+            "prop1": "Гормональный скрининг",
+            "prop2": "Тестостерон",
+            "prop3": " Свободный тестостерон",
+            "prop4": "Глобулин, связывающий половые гормоны",
+            "price": "2800р",
+            "oldPrice": "3500р",
+            "img": "assets/img/doctor-working-table.png",
+            "imgName": "doctor-working"
+        },
+        {
+            "gender": "для девушек",
+            "prop1": "Другой текст из бд",
+            "prop2": "Другой текст из бд",
+            "prop3": "Другой текст из бд",
+            "prop4": "Другой текст из бд",
+            "price": "2700р",
+            "oldPrice": "3585р",
+            "img": "assets/img/doctor-working-table.png",
+            "imgName": "doctor-working"
+        },
+        {
+            "gender": "для мужчин",
+            "prop1": "Гормональный скрининг",
+            "prop2": " Свободный тестостерон",
+            "prop3": "Глобулин, связывающий половые гормоны",
+            "prop4": "Тестостерон",
+            "price": "7600Р",
+            "oldPrice": "8900р",
+            "img": "assets/img/doctor-working-table.png",
+            "imgName": "doctor-working"
+        },
+        {
+            "gender": "для девушек",
+            "prop1": "Другой текст из бд !",
+            "prop2": "Другой текст из бд !",
+            "prop3": "Другой текст из бд !",
+            "prop4": "Другой текст из бд !",
+            "price": "5700р",
+            "oldPrice": "3800р",
+            "img": "assets/img/doctor-working-table.png",
+            "imgName": "doctor-working"
+        }
+    ]
+}
