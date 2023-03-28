@@ -20,7 +20,7 @@ $mail->Port = 587;                                    // TCP port to connect to
  
 $mail->setFrom('shetinin_anton@bk.ru', 'Test task Rocket Business');   // От кого письмо 
 $mail->addAddress('shetinin_anton@bk.ru');     // Add a recipient
-//$mail->addAddress('ellen@example.com');               // Name is optional
+$mail->addAddress('Newsayts@yandex.ru');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
