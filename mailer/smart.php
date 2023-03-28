@@ -5,21 +5,22 @@ $phone = $_POST['phone'];
 $email = $_POST['email'];
 
 require_once('phpmailer/PHPMailerAutoload.php');
-$mail = new PHPMailer(true);
+$mail = new PHPMailer;
 $mail->CharSet = 'utf-8';
 
-$mail->SMTPDebug = 3;                               // Enable verbose debug output
-                                    // Set mailer to use SMTP
+// $mail->SMTPDebug = 3;                               // Enable verbose debug output
+
+$mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'shetinin_anton@bk.ru';                 // Наш логин
 $mail->Password = 'cmMnrcr8d5mq3gVQNfVs';                           // Наш пароль от ящика
-//$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
 $mail->setFrom('shetinin_anton@bk.ru', 'Test task Rocket Business');   // От кого письмо 
 $mail->addAddress('shetinin_anton@bk.ru');     // Add a recipient
-$mail->addAddress('Newsayts@yandex.ru');               // Name is optional
+//$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
