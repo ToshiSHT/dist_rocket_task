@@ -9,13 +9,12 @@ $mail = new PHPMailer(true);
 $mail->CharSet = 'utf-8';
 
 $mail->SMTPDebug = 3;                               // Enable verbose debug output
-
-$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'ssl://smtp.mail.ru';  // Specify main and backup SMTP servers
+                                    // Set mailer to use SMTP
+$mail->Host = 'smtp.mail.ru';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'shetinin_anton@bk.ru';                 // Наш логин
 $mail->Password = 'cmMnrcr8d5mq3gVQNfVs';                           // Наш пароль от ящика
-$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+//$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
 $mail->setFrom('shetinin_anton@bk.ru', 'Test task Rocket Business');   // От кого письмо 
