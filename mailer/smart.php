@@ -18,8 +18,8 @@ $mail->Password = 'cmMnrcr8d5mq3gVQNfVs';                           // Наш п
 $mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 465;                                    // TCP port to connect to
  
-$mail->setFrom('shetinin_anton@bk.ru', 'Pulse');   // От кого письмо 
-$mail->addAddress('shetininanton@bk.ru');     // Add a recipient
+$mail->setFrom('shetinin_anton@bk.ru', 'Test task Rocket Business');   // От кого письмо 
+$mail->addAddress('shetinin_anton@bk.ru');     // Add a recipient
 //$mail->addAddress('ellen@example.com');               // Name is optional
 //$mail->addReplyTo('info@example.com', 'Information');
 //$mail->addCC('cc@example.com');
@@ -28,9 +28,9 @@ $mail->addAddress('shetininanton@bk.ru');     // Add a recipient
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Данные';
+$mail->Subject = 'Данные c сайта';
 $mail->Body    = '
-		Пользователь оставил данные <br> 
+		Вы проверили тестовое и напечатали : <br> 
 	Имя: ' . $name . ' <br>
 	Номер телефона: ' . $phone . '<br>
 	E-mail: ' . $email . '';
